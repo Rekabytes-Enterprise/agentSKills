@@ -11,6 +11,7 @@
   <a href="https://github.com/Rekabytes-Enterprise/agentSKills/stargazers"><img src="https://img.shields.io/github/stars/Rekabytes-Enterprise/agentSKills?style=flat&amp;color=6366f1&amp;label=stars" alt="GitHub stars"></a>
   <a href="https://github.com/Rekabytes-Enterprise/agentSKills/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rekabytes-Enterprise/agentSKills/validate.yml?branch=main&amp;style=flat&amp;label=checks" alt="Skill validation workflow status"></a>
   <a href="https://agentskills.io"><img src="https://img.shields.io/badge/format-SKILL.md-6366f1?style=flat" alt="Portable SKILL.md format"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6366f1?style=flat" alt="MIT License"></a>
 </p>
 
 <p align="center">
@@ -18,7 +19,7 @@
   <a href="#skill-catalog">Skills</a> ·
   <a href="#how-it-works">Workflow</a> ·
   <a href="#installs-and-downloads">Activity</a> ·
-  <a href="#contributing">Contribute</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a> ·
   <a href="https://github.com/Rekabytes-Enterprise/agentSKills/archive/refs/heads/main.zip">Download ZIP</a>
 </p>
 
@@ -171,6 +172,8 @@ For manual installs, update your checkout and review/re-copy the skill folder. L
 
 ## Contributing
 
+Read the [contribution guide](CONTRIBUTING.md) for the `dev` branch workflow, skill conventions, validation, and pull request checklist.
+
 Add a self-contained folder under `skills/<skill-name>/` with:
 - `SKILL.md`: lowercase, hyphenated `name` matching the folder and a descriptive, single-line `description`.
 - `references/` and `templates/` when useful, with relative links inside the skill package.
@@ -189,7 +192,7 @@ The [validation workflow](.github/workflows/validate.yml) checks metadata, local
 
 ### Licensing
 
-A reuse license has not been selected yet. Add one before a public release intended for reuse; a public repository alone does not grant a reuse license.
+Licensed under the [MIT License](LICENSE). See the license for permissions, required notices, and warranty terms.
 
 ---
 
