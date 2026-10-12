@@ -1,0 +1,58 @@
+# macOS / Windows filesystem metadata
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+
+# Local editor settings and temporary files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# Python bytecode, tooling caches, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+/coverage/
+/htmlcov/
+
+# Local dependency installations and package-manager caches
+node_modules/
+/.npm/
+/.pnpm-store/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Logs and temporary output
+*.log
+*.tmp
+*.bak
+
+# Project-local agent installations (published skills live in /skills/)
+/.agents/
+/.claude/
+/.cursor/
+/.codex/
+/.opencode/
+/skills-lock.json
+
+# Personal pi state and connection/engagement configuration
+# Keep .pi/AGENTS.md trackable if project instructions are added later.
+/.pi/memory.md
+/.pi/state.md
+/.pi/mcp.json
+/.pi/pentest.json
+/.pi/cache/
